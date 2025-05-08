@@ -745,7 +745,7 @@ span{
 /* ----- tasks ----- */
 
 .tasks{
-    padding: 7vw 0 18vw 2vw;
+    padding: 2vw 0vw 18vw 2vw;
     height: 125vh;
     overflow-x: hidden;
 }
@@ -753,6 +753,7 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 .tasks .text-box{
     max-width: 47vw;
@@ -797,9 +798,9 @@ span{
 }
 #bg{
     position: absolute;
-    right: -20%;
+    right: 0;
     z-index: -1;
-    width: 70vw;
+    width: 50vw;
 }
 
 /* ----- work ----- */
